@@ -4,30 +4,30 @@ import Country from "./Country/country.js";
 
 function PersonalInfo() {
   const obj = {
-    nome1: "eric",
+    nome1: "Eric",
     age1: 28,
-    country1: "brasil",
-    nome2: "gustavo",
-    age: 19,
-    country: "brasil",
-    name3: "igor",
+    country1: "Brasil",
+    nome2: "Gustavo",
+    age2: 19,
+    country2: "Brasil",
+    nome3: "Igor",
     age3: 20,
-    country3: "brasil",
+    country3: "Brasil",
   };
 
   return (
     <div className="App">
-      <div>
+      <div className="folder">
         <Name nome={obj.nome1} />
         <Age age={obj.age1} />
         <Country country={obj.country1} />
       </div>
-      <div>
+      <div className="folder">
         <Name nome={obj.nome2} />
         <Age age={obj.age2} />
         <Country country={obj.country2} />
       </div>
-      <div>
+      <div className="folder">
         <Name nome={obj.nome3} />
         <Age age={obj.age3} />
         <Country country={obj.country3} />
