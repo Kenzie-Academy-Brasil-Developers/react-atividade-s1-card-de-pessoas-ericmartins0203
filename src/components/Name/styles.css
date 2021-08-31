@@ -16,3 +16,7 @@
   align-items: center;
   justify-content: center;
 }
+
+.folder:hover {
+  filter: brightness(0.7);
+}
